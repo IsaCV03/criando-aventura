@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+    <title>Em busca do artefato valioso</title>
+</head>
+<body>
+    
+    <main>
+        <div class="fase ativo"  id="fase-0">
+            <img src="img/cenario-fase0.png" alt="">
+            <p>Em um dia quente, 5 amigos decidem ir para a praia curtir o dia, quando derrepende um deles acha uma carta enterrada na areia, com um endereço de uma mansão abandonada muito conhecida, embaixo do local havia um aviso, “Nessa casa existe um artefado muito valioso”, então, os amigos curiosos decidem ir atrás de pistas</p>
+            <button class="btn-proximo" data-proximo="1">Ir para Mansão na Vila dos Sonhos</button>
+            <button class="btn-proximo" data-proximo="2">Voltar para casa, para pesquisar mais</button>
+        </div>
+        <div class="fase"  id="fase-1">
+            <p>Chegando na mansão, eles percebem que a casa tem 3 andares, mas o primeiro estava completamente vazio, então vão procurar pistas nos andares de cima </p>
+            <button class="btn-proximo" data-proximo="3">Procurar pistas nos anadares de cima</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="fase" id="fase-2">
+           <p>Chegando de volta para a casa de um dos amigos, eles começam a pesquisar mais sobre a mansão abandonada, e alguns descobrem pessoas que já moraram perto da mansão, então eles se separam e vão atrás de pistas.</p>
+           <button class="btn-proximo" data-proximo="5">Conversar com a Senhora Smith</button>
+           <button class="btn-proximo" data-proximo="6">Conversar com o Senhor Will</button>
+        </div>
+
+        <div class="fase" id="fase-3">
+         <p>Logo nos últimos degraus da escada, um deles acha uma carta, escrito que a primeira pista está no quarto das pinturas</p>
+         <button class="btn-proximo" data-proximo="7">Ir para quarto das pinturas</button>
+        </div>
+
+        <div class="fase" id="fase-4">
+            <img src="img/cenario4.png.jpg" alt="imagem voltando para casa e desistindo da aventura">
+         <p>Cansaram de procurar e voltaram para suas vidas, esquecendo dos últimos acontecimentos e desistindo do artefato.</p>
+        </div>
+
+          <div class="fase" id="fase-5">
+            <p>A senhora fala que já tinha entrado na mansão quando era menor, e que lá tinha um quarto de pinturas que não deixavam ninguém entrar.</p>
+            <button class="btn-proximo" data-proximo="7">Ir para quarto das pinturas</button>
+          </div>
+
+          <div class="fase" id="fase-6">
+            <p>O senhor apenas disse que não tinha nenhum móvel no primeiro andar da casa.</p>
+            <button class="btn-proximo" data-proximo="8">Encontrar o resto do grupo</button>
+          </div>
+
+          <div class="fase" id="fase-7">
+            <p>Depois de algum tempo procurando pelo quarto, um deles percebe que uma pintura está com pinceladas diferentes, e quando ele mexe nele, abre uma porta do outro lado do quarto, abrindo para uma caverna com duas divisórias.</p>
+            <button class="btn-proximo" data-proximo="9">Ir para o lado esquerdo</button>
+            <button class="btn-proximo" data-proximo="10">Ir para o lado direito</button>
+          </div>
+
+          <div class="fase" id="fase-8">
+            <p>Juntando as pistas, eles decidem ir para a mansão e ir direto para o quarto das pinturas</p>
+            <button class="btn-proximo" data-proximo="7">Ir para quarto das pinturas</button>
+          </div>
+
+          <div class="fase" id="fase-9">
+           <p>Seguino o lado esquerdo, eles encontram uma placa, com uma chave pendurada e um baú mais para frente</p>
+           <button class="btn-proximo" data-proximo="11">Abrem o baú</button>
+          </div>
+
+          <div class="fase" id="fase-10">
+            <p>Seguindo o lado direito, eles entram em uma área sem saída</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro caminho</button>
+          </div>
+
+          <div class="fase" id="fase-11">
+            <img src="img/cenario-final.jpg" alt="encontrando o baú">
+            <p>Dentro do baú tinham vários artefados famosos que tinham sido roubadaos durante os últimos 100 anos.</p>
+          </div>
+
+          <div class="fase" id="fase-12">
+            <p>Voltando para o início, eles encontram o resto do grupo, e juntos vão atras do artefato que eles nem imaginam o que seja</p>
+            <button class="btn-proximo" data-proximo="11">Abrem o baú</button>
+
+          </div>
+
+
+
+
+
+    </main>
+    <script src="script.js"></script>
+
+
+
+
+</body>
+</html>

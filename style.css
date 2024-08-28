@@ -1,0 +1,36 @@
+body {  
+      background-color:rgb(167, 249, 109);
+    color: black;
+    font-family: "Lora", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+
+
+button {
+     background-color: rgb(23, 74, 241);
+     color: white;
+     font-family: "Lora", serif;
+}
+
+.fase {
+    display: none;
+}
+
+.fase.ativo {
+    display:block;
+
+}
+
+main {
+    text-align: center;
+    max-width: 50%;
+}
+
+img {
+    max-width: 60%
+}
